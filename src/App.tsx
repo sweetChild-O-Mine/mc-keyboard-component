@@ -1,4 +1,3 @@
-import Key from "./Key"
 import Keyboard from "./Keyboard"
 
 function App() {

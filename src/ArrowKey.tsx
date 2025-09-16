@@ -1,5 +1,3 @@
-import Key from "./Key";
-
 type KeyProps = {
     label: string,
     size? : number

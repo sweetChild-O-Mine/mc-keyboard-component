@@ -22,7 +22,7 @@ const Keyboard = () => {
                                     }}
                                     >
                                         {/* arrowkey compoe */}
-                                        <ArrowKeys keys={keyData.keys} />
+                                        <ArrowKeys keys={keyData.keys as Array<{label:string, size?: number}>} />
                                     </div>
                                 )
                             } 
