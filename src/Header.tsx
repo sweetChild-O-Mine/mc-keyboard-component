@@ -1,7 +1,7 @@
 
 function Header() {
   return (
-    <h1 className="text-3xl mb-18 font-mono bg-clip-text text-transparent bg-gradient-to-br from-neutral-600 via-neutral-400 to-neutral-600 ">They say it's a keyboard!!</h1>
+    <h1 className="text-3xl mb-18 font-mono bg-clip-text text-transparent bg-gradient-to-br from-neutral-600 via-neutral-400 to-neutral-600 selection:bg-neutral-400 selection:text-neutral-900 ">They say it's a keyboard!!</h1>
   )
 }
 
