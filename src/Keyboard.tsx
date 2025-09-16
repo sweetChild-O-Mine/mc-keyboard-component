@@ -5,12 +5,13 @@ import ArrowKeys from "./ArrowKey";
 const Keyboard = () => {
 
     return (
-        <div className=" flex flex-col  justify-center w-full max-w-5xl mx-auto  bg-neutral-900 gap-3 py-3 px-3 rounded-xl">
+        // main keybaord container
+        <div className=" flex flex-col justify-center w-full max-w-5xl mx-auto  bg-neutral-900 gap-3 py-3 px-3 rounded-xl shadow-md shadow-neutral-700">
             {
                 KeyboardLayout.map((row, rowInd) => (
                     <div
                     key={rowInd}
-                    className="flex gap-1 w-full ">
+                    className="flex gap-3 w-full ">
                         {row.map((keyData, keyInd) => {
                             if('type' in keyData && keyData.type == "arrows"){
                                 return(

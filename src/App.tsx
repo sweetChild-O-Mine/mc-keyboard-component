@@ -1,4 +1,5 @@
 import Keyboard from "./Keyboard"
+import Header from "./Header"
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
     }}
   />
   {/* Your Content Here */}
-           <div className="relative z-20 h-screen flex justify-center items-center">
+           <div className="relative z-20 h-screen flex flex-col justify-center items-center">
+          <Header />
           <Keyboard />
         </div>
 </div>

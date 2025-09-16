@@ -21,7 +21,7 @@ const Key = ({label, size = 1}: KeyProps) => {
 
     return (
         <div 
-            className={`h-12 text-sm flex justify-center items-center shadow-md shadow-neutral-400 bg-neutral-950 text-white cursor-pointer rounded-md hover:scale-95 hover:shadow-neutral-700 transition-all duration-100`}
+            className={`h-12 text-xs font-mono flex justify-center items-center shadow-md shadow-neutral-400 bg-neutral-950 text-white cursor-pointer rounded-md hover:scale-95 hover:shadow-neutral-800 transition-all duration-100`}
             style={{
                 flex: `${size} 1 0%`
             }}
